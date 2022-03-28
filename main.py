@@ -53,7 +53,7 @@ def get_email_info():
     print(receiver)
     talk('What is the subject of your email?')
     subject = get_info()
-    talk('Tell me the text in your email')
+    talk('Tell me the text in your email message')
     message = get_info()
     send_email(receiver, subject, message)
     talk('Hey lazy ass. Your email is sent')
