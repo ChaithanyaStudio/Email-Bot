@@ -61,6 +61,8 @@ def get_email_info():
     send_more = get_info()
     if 'yes' in send_more:
         get_email_info()
+    if 'no' in send_more:
+        talk('Bye lazy')
 
 
 get_email_info()
